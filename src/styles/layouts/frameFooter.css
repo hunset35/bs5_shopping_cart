@@ -1,0 +1,82 @@
+.footer {
+    width: 100%;
+    height: 4.0625rem;
+    display: flex;
+    background: linear-gradient(to bottom, #383838 0%, #0e0000 100%);
+    box-shadow: 0 -0.25rem 0.625rem #000000 4f;
+    border-top-left-radius: 0.625rem;
+    border-top-right-radius: 0.625rem;
+    position: fixed;
+    bottom: 0;
+    z-index: 10;
+  }
+  .footer .footerMenu {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 0 1.875rem;
+  }
+  .footer .footerMenu li {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer .footerMenu li a {
+    border-radius: 0.7rem;
+    width: 3.375rem;
+    height: 3.375rem;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8125rem;
+    font-weight: lighter;
+  }
+  .footer .footerMenu li a .icon {
+    width: 1.5625rem;
+    height: 1.5625rem;
+    margin-top: 0.3125rem;
+    margin-bottom: 0;
+  }
+  .footer .footerMenu li a .icon.money {
+    background: url("~@/assets/images/money-bag.svg") no-repeat center center;
+    background-size: contain;
+    width: 1.600625rem;
+    height: 1.600625rem;
+  }
+  .footer .footerMenu li a .icon.wallet {
+    background: url("~@/assets/images/wallet.svg") no-repeat center center;
+    background-size: contain;
+    width: 1.5625rem;
+    height: 1.5625rem;
+  }
+  .footer .footerMenu li a .icon.game {
+    background: url("~@/assets/images/game-controller.svg") no-repeat center center;
+    background-size: contain;
+    width: 2.050625rem;
+    height: 1.366875rem;
+  }
+  .footer .footerMenu li a .icon.member {
+    background: url("~@/assets/images/businessman.svg") no-repeat center center;
+    background-size: contain;
+    width: 1.5625rem;
+    height: 1.5625rem;
+  }
+  .footer .footerMenu li a .icon.star {
+    background: url("~@/assets/images/star.svg") no-repeat center center;
+    background-size: contain;
+    width: 1.70875rem;
+    height: 1.675625rem;
+  }
+  .footer .footerMenu li a span {
+    line-height: 1.625rem;
+    word-break: keep-all;
+  }
+  .footer .footerMenu li a.active {
+    background: linear-gradient(to bottom, #aa0000 0%, #6e0000 100%);
+  }
+  

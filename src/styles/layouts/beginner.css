@@ -1,0 +1,47 @@
+.beginnerTeaching {
+  font-size: 0.875rem;
+  color: #fff;
+}
+.beginnerTeaching .titleWrap {
+  padding: 0.625rem 0.8125rem 0;
+  font-size: 1.0625rem;
+}
+.beginnerTeaching .beginnerTable {
+  padding: 0 0.8125rem;
+  margin: 0.625rem 0;
+  height: auto;
+}
+.beginnerTeaching .recordTable {
+  width: 100%;
+  background: #333b58;
+  box-shadow: 0 0.1875rem 0.625rem#0000004D;
+  border-top-left-radius: 0.625rem;
+  border-top-right-radius: 0.625rem;
+  overflow: hidden;
+}
+.beginnerTeaching .recordTable thead th,
+.beginnerTeaching .recordTable tbody td {
+  font-size: 0.8125rem;
+  font-weight: lighter;
+  line-height: 1.25rem;
+  font-weight: 400;
+}
+.beginnerTeaching .recordTable thead {
+  background: #383838;
+}
+.beginnerTeaching .recordTable thead th {
+  padding: 0.3125rem;
+  vertical-align: top;
+}
+.beginnerTeaching .recordTable tbody td {
+  border-bottom: 0.0625rem solid #84878f;
+  background: #fff;
+  color: #383838;
+  padding: 0.3125rem;
+}
+.beginnerTeaching .recordTable .activeValue {
+  width: 20%;
+}
+.beginnerTeaching .recordTable .timesPerDay {
+  width: 20%;
+}
